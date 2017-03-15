@@ -1,0 +1,16 @@
+nginx:
+  build: ./nginx
+  expose:
+    - 80
+    - 445
+
+ 
+app1:
+  build: ./App1
+  expose:
+    - 3100
+
+app2:
+  build: ./App2
+  expose:
+    - 3200    
