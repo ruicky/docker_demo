@@ -3,7 +3,7 @@
 2. 测试Nginx反向代理到多个APP的配置
 
 上图 说明：
-![流程示意图](http://omu7xi4fa.bkt.clouddn.com/WechatIMG1.jpeg)
+![流程示意图](./images/1.jpeg)
 
 # 前提条件
 1. NodeJS
