@@ -1,3 +1,11 @@
+# 安装docker（国内）
+```SHELL
+# 将https://download.docker.com 改为 github的一个地址
+curl -fsSL https://raw.githubusercontent.com/ruicky/docker_demo/master/install_dock.sh  -o get-docker.sh
+# 安装时 选择 阿里云镜像
+sudo sh get-docker.sh --mirror Aliyun
+```
+
 # 项目初衷
 1. 构建Nodejs + Express 项目的Docker镜像
 2. 测试Nginx反向代理到多个APP的配置
